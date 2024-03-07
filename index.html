@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Poppins:wght@100;300;500&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./source/estilos.css">
+
+    <link rel="stylesheet" href="./source/responsivo.css">
+
+    <title>TesteTarget</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <a href="">
+            <img class="logo" src="./source/imagens/download.png" alt="logo Target">
+        </a>
+
+        <h2>Estágio Ribeirão Preto</h2>
+    </header>
+    <main class="container">
+        <h1 class="titulo">TESTE TARGET 2024</h1>
+        <div class="perguntas">
+            <h2>01- Observe o trecho de código abaixo:</h2>
+            <h3>int INDICE = 13, SOMA = 0, K = 0;</h3>
+            <h3>enquanto K < INDICE faça </h3>
+                    <h3>{ K = K + 1; SOMA = SOMA + K } imprimir(soma)</h3>
+                    <h2>Ao final do processamento, qual será o valor da variável SOMA?</h2>
+        </div>
+
+        <div class="solucao">
+            <p>Solução:&nbsp;<span id="sumResult"></span></p>
+        </div>
+
+
+        <div class="perguntas">
+            <h2>02- Dado a sequência de Fibonacci, onde se inicia por 0 e 1 e o próximo valor sempre será a soma dos 2
+                valores anteriores (exemplo: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34...), escreva um programa na linguagem que
+                desejar onde, informado um número, ele calcule a sequência de Fibonacci e retorne uma mensagem avisando
+                se o número informado pertence ou não a sequência.</h2>
+        </div>
+
+
+
+        <div class="solucao1">
+            <div>
+                <label for="numero-input">Digite um número e verifique se o mesmo faz parte da Sequência de
+                    Fibonacci:</label>
+            </div>
+            <div>
+                <input type="number" id="numero-input">
+                <button id="check-button">Confirmar</button>
+
+            </div>
+            <div>
+                <span id="result"></span>
+            </div>
+
+        </div>
+
+
+        <div class="perguntas">
+            <h2>03- Descubra a lógica e complete o próximo elemento:</h2>
+            <p>a- 1, 3, 5, 7,____</p>
+            <p>b- 2, 4, 8, 16, 32, 64, ____</p>
+            <p>c- 0, 1, 4, 9, 16, 25, 36, ____</p>
+            <p>d- 4, 16, 36, 64, ____</p>
+            <p>e- 1, 1, 2, 3, 5, 8, ____</p>
+            f- 2,10, 12, 16, 17, 18, 19, ____
+        </div>
+
+        <div class="solucao2">
+            <div>
+                <h2>Solução:</h2>
+            </div>
+            <div>
+                <p>
+                    a.&nbsp;<span>9&nbsp;&nbsp;</span>
+                    b.&nbsp;<span>128&nbsp;&nbsp;</span>
+                    c.&nbsp;<span>49&nbsp;&nbsp;</span>
+                    d.&nbsp;<span>100&nbsp;&nbsp;</span>
+                    e.&nbsp;<span>13&nbsp;&nbsp;</span>
+                    f.&nbsp;<span>200</span>
+                </p>
+            </div>
+
+        </div>
+
+
+
+        <div class="perguntas">
+            <h2>04- Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em uma sala diferente.
+                Você não pode ver as lâmpadas da sala em que está, mas pode ligar e desligar os interruptores quantas
+                vezes quiser. Seu objetivo é descobrir qual interruptor controla qual lâmpada. Como você faria para
+                descobrir, usando apenas duas idas até uma das salas das lâmpadas, qual interruptor controla cada
+                lâmpada?</h2>
+        </div>
+
+        <div class="solucao3">
+            <div>
+                <h2>Solução:</h2>
+            </div>
+            <div>
+                <p>
+                    Eu ligo o primeiro interruptor de luz e espero cerca de cinco minutos. Em seguida, desligo de novo,
+                    e ligo o segundo interruptor. Enquanto o segundo interruptor de luz está ligado, vou até a primeira
+                    sala e verifico se a lâmpada está acesa.</p>
+                <p>Sim, a lâmpada está acesa. O segundo interruptor corresponde á primeira sala.</p>
+
+                <p>
+                    Não, a lâmpada não está acesa. Mas, se a lâmpada estiver quente, então o primeiro interruptor de luz
+                    acende a lâmpada da primeira sala.</p>
+                <p>
+                    Não, a lâmpada não está acesa. Se a lâmpada estiver apagada e fria, o terceiro interruptor de luz
+                    corresponde á lâmpada da primeira sala.</p>
+                <p>
+                    Após descobrir qual interruptor corresponde a lâmpada da
+                    primeira sala, basta seguir os mesmos passos: Ligo um dos 2 interruptores restantes, enquanto ligado
+                    vou na segunda sala verificar:</p>
+                <p>
+                    Sim, a lâmpada está acesa. O interruptor ligado corresponde á segunda
+                    sala. Não, a lâmpada não está acesa. O interruptor ligado corresponde á terceira sala.</p>
+            </div>
+
+        </div>
+
+        <div class="perguntas">
+            <h2>05- Escreva um programa que inverta os caracteres de um string.</h2>
+        </div>
+
+        <div class="solucao4">
+            <div>
+                <label for="wordInput">Digite uma palavra:</label>
+            </div>
+
+            <div>
+                <input type="text" id="wordInput">
+                <button id="reverterButton">Reverter</button>
+            </div>
+
+            <div>
+                <span id="resultadoReverter"></span>
+            </div>
+
+        </div>
+
+        <footer>
+            <h3>Layon Marques</h3>
+            <h4>layonmarques@hotmail.com</h4>
+        </footer>
+    </main>
+
+
+
+    <script src="./source/index.js"></script>
+</body>
+
+</html>

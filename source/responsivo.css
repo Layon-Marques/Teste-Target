@@ -1,0 +1,54 @@
+    @media (max-width: 500px) {
+        .cabecalho h2 {
+            font-size: 15px;
+        }
+
+        .cabecalho .logo {
+            width: 85px;
+        }
+
+        .container .titulo {
+            font-size: 25px;
+        }
+
+        .container .perguntas h2 {
+            font-size: 15px;
+
+        }
+
+        .container .solucao1 button {
+            width: 60px;
+        }
+
+        .container .solucao1 #check-button {
+            font-size: 8px;
+        }
+
+        .container .solucao1 label {
+            font-size: 12px;
+        }
+
+        .container .solucao2 p {
+            font-size: 12px;
+        }
+
+        .container .solucao3 p {
+            font-size: 12px;
+        }
+
+        .container .solucao4 label {
+            font-size: 12px;
+        }
+
+        .container .solucao4 button {
+            width: 60px;
+        }
+
+        .container .solucao4 #reverterButton {
+            font-size: 8px;
+        }
+
+        footer {
+            font-size: 10px;
+        }
+    }
